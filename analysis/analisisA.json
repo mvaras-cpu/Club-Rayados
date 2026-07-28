@@ -1,0 +1,409 @@
+{
+ "total_menciones": 166467,
+ "total_eng": 20632584,
+ "fecha_min": "2026-04-28 00:00:01",
+ "fecha_max": "2026-07-28 16:07:43",
+ "dias": 92,
+ "autores_unicos": 49493,
+ "own": {
+  "menciones": 2319,
+  "eng": 10080209,
+  "autores": 12,
+  "pct_menc": 1.39,
+  "pct_eng": 48.86
+ },
+ "earn": {
+  "menciones": 164148,
+  "eng": 10552375,
+  "autores": 49481,
+  "pct_menc": 98.61,
+  "pct_eng": 51.14
+ },
+ "timeline_mes": [
+  {
+   "mes": "2026-04",
+   "menc": 12272,
+   "eng": 1181418,
+   "own_menc": 56,
+   "earn_menc": 12216,
+   "own_eng": 455213,
+   "earn_eng": 726205
+  },
+  {
+   "mes": "2026-05",
+   "menc": 49772,
+   "eng": 3994528,
+   "own_menc": 488,
+   "earn_menc": 49284,
+   "own_eng": 1218872,
+   "earn_eng": 2775656
+  },
+  {
+   "mes": "2026-06",
+   "menc": 41778,
+   "eng": 6833815,
+   "own_menc": 759,
+   "earn_menc": 41019,
+   "own_eng": 3607218,
+   "earn_eng": 3226597
+  },
+  {
+   "mes": "2026-07",
+   "menc": 62645,
+   "eng": 8622823,
+   "own_menc": 1016,
+   "earn_menc": 61629,
+   "own_eng": 4798906,
+   "earn_eng": 3823917
+  }
+ ],
+ "plataformas": [
+  {
+   "plat": "X (Twitter)",
+   "menc": 115072,
+   "pct_menc": 69.13,
+   "eng": 3776577,
+   "pct_eng": 18.3,
+   "eng_por_menc": 32.8,
+   "own_menc": 881
+  },
+  {
+   "plat": "Noticias online",
+   "menc": 26337,
+   "pct_menc": 15.82,
+   "eng": 26340,
+   "pct_eng": 0.13,
+   "eng_por_menc": 1.0,
+   "own_menc": 0
+  },
+  {
+   "plat": "Blogs",
+   "menc": 8390,
+   "pct_menc": 5.04,
+   "eng": 6523,
+   "pct_eng": 0.03,
+   "eng_por_menc": 0.8,
+   "own_menc": 0
+  },
+  {
+   "plat": "TikTok",
+   "menc": 5855,
+   "pct_menc": 3.52,
+   "eng": 2572295,
+   "pct_eng": 12.47,
+   "eng_por_menc": 439.3,
+   "own_menc": 50
+  },
+  {
+   "plat": "Facebook",
+   "menc": 4153,
+   "pct_menc": 2.49,
+   "eng": 3915930,
+   "pct_eng": 18.98,
+   "eng_por_menc": 942.9,
+   "own_menc": 587
+  },
+  {
+   "plat": "Instagram",
+   "menc": 2412,
+   "pct_menc": 1.45,
+   "eng": 9640077,
+   "pct_eng": 46.72,
+   "eng_por_menc": 3996.7,
+   "own_menc": 752
+  },
+  {
+   "plat": "YouTube",
+   "menc": 2080,
+   "pct_menc": 1.25,
+   "eng": 686915,
+   "pct_eng": 3.33,
+   "eng_por_menc": 330.2,
+   "own_menc": 32
+  },
+  {
+   "plat": "Podcast",
+   "menc": 1071,
+   "pct_menc": 0.64,
+   "eng": 0,
+   "pct_eng": 0.0,
+   "eng_por_menc": 0.0,
+   "own_menc": 0
+  },
+  {
+   "plat": "Bluesky",
+   "menc": 413,
+   "pct_menc": 0.25,
+   "eng": 1923,
+   "pct_eng": 0.01,
+   "eng_por_menc": 4.7,
+   "own_menc": 0
+  },
+  {
+   "plat": "LinkedIn",
+   "menc": 256,
+   "pct_menc": 0.15,
+   "eng": 5797,
+   "pct_eng": 0.03,
+   "eng_por_menc": 22.6,
+   "own_menc": 17
+  },
+  {
+   "plat": "Foros",
+   "menc": 206,
+   "pct_menc": 0.12,
+   "eng": 42,
+   "pct_eng": 0.0,
+   "eng_por_menc": 0.2,
+   "own_menc": 0
+  },
+  {
+   "plat": "Newsletter",
+   "menc": 144,
+   "pct_menc": 0.09,
+   "eng": 165,
+   "pct_eng": 0.0,
+   "eng_por_menc": 1.1,
+   "own_menc": 0
+  },
+  {
+   "plat": "Otras redes",
+   "menc": 77,
+   "pct_menc": 0.05,
+   "eng": 0,
+   "pct_eng": 0.0,
+   "eng_por_menc": 0.0,
+   "own_menc": 0
+  },
+  {
+   "plat": "Otros",
+   "menc": 1,
+   "pct_menc": 0.0,
+   "eng": 0,
+   "pct_eng": 0.0,
+   "eng_por_menc": 0.0,
+   "own_menc": 0
+  }
+ ],
+ "top30": [
+  {
+   "rank": 1,
+   "author": "rayados",
+   "eng": 6019539,
+   "menc": 420,
+   "is_own": true
+  },
+  {
+   "rank": 2,
+   "author": "Rayados",
+   "eng": 2493136,
+   "menc": 954,
+   "is_own": true
+  },
+  {
+   "rank": 3,
+   "author": "wearerayados",
+   "eng": 596494,
+   "menc": 117,
+   "is_own": true
+  },
+  {
+   "rank": 4,
+   "author": "RG La Deportiva",
+   "eng": 454789,
+   "menc": 1140,
+   "is_own": false
+  },
+  {
+   "rank": 5,
+   "author": "delapandillatodalavida",
+   "eng": 365568,
+   "menc": 132,
+   "is_own": false
+  },
+  {
+   "rank": 6,
+   "author": "diegobonti",
+   "eng": 342390,
+   "menc": 38,
+   "is_own": false
+  },
+  {
+   "rank": 7,
+   "author": "rayadostv",
+   "eng": 333559,
+   "menc": 7,
+   "is_own": true
+  },
+  {
+   "rank": 8,
+   "author": "rayadoos_",
+   "eng": 258229,
+   "menc": 1,
+   "is_own": false
+  },
+  {
+   "rank": 9,
+   "author": "rayados_fb",
+   "eng": 214724,
+   "menc": 139,
+   "is_own": true
+  },
+  {
+   "rank": 10,
+   "author": "Multimedios Deportes",
+   "eng": 203344,
+   "menc": 754,
+   "is_own": false
+  },
+  {
+   "rank": 11,
+   "author": "FOX Sports MX",
+   "eng": 188469,
+   "menc": 184,
+   "is_own": false
+  },
+  {
+   "rank": 12,
+   "author": "record_mexico",
+   "eng": 177388,
+   "menc": 58,
+   "is_own": false
+  },
+  {
+   "rank": 13,
+   "author": "somosinvictos",
+   "eng": 161431,
+   "menc": 10,
+   "is_own": false
+  },
+  {
+   "rank": 14,
+   "author": "tiendarayados",
+   "eng": 160634,
+   "menc": 73,
+   "is_own": true
+  },
+  {
+   "rank": 15,
+   "author": "El Tigre Francés",
+   "eng": 129894,
+   "menc": 61,
+   "is_own": false
+  },
+  {
+   "rank": 16,
+   "author": "mediotiempocom",
+   "eng": 128662,
+   "menc": 99,
+   "is_own": false
+  },
+  {
+   "rank": 17,
+   "author": "latinus_us",
+   "eng": 125654,
+   "menc": 9,
+   "is_own": false
+  },
+  {
+   "rank": 18,
+   "author": "rayadas4life4",
+   "eng": 125142,
+   "menc": 3,
+   "is_own": false
+  },
+  {
+   "rank": 19,
+   "author": "fifa",
+   "eng": 122110,
+   "menc": 2,
+   "is_own": false
+  },
+  {
+   "rank": 20,
+   "author": "sportbible",
+   "eng": 111326,
+   "menc": 1,
+   "is_own": false
+  },
+  {
+   "rank": 21,
+   "author": "rayadas",
+   "eng": 107518,
+   "menc": 45,
+   "is_own": true
+  },
+  {
+   "rank": 22,
+   "author": "tycsports",
+   "eng": 107261,
+   "menc": 6,
+   "is_own": false
+  },
+  {
+   "rank": 23,
+   "author": "diario.ole",
+   "eng": 103386,
+   "menc": 5,
+   "is_own": false
+  },
+  {
+   "rank": 24,
+   "author": "Rayadas",
+   "eng": 98261,
+   "menc": 134,
+   "is_own": true
+  },
+  {
+   "rank": 25,
+   "author": "foxsportsmx",
+   "eng": 94326,
+   "menc": 82,
+   "is_own": false
+  },
+  {
+   "rank": 26,
+   "author": "sergiocanalesoficial",
+   "eng": 92017,
+   "menc": 1,
+   "is_own": false
+  },
+  {
+   "rank": 27,
+   "author": "raya2dcorazon",
+   "eng": 91633,
+   "menc": 13,
+   "is_own": false
+  },
+  {
+   "rank": 28,
+   "author": "scespn",
+   "eng": 91599,
+   "menc": 5,
+   "is_own": false
+  },
+  {
+   "rank": 29,
+   "author": "zonarayada",
+   "eng": 84508,
+   "menc": 176,
+   "is_own": false
+  },
+  {
+   "rank": 30,
+   "author": "rc10.fc",
+   "eng": 82720,
+   "menc": 2,
+   "is_own": false
+  }
+ ],
+ "top30_pct_eng": 66.2,
+ "top1_pct_eng": 29.2,
+ "top10_pct_eng": 54.7,
+ "official_pct_eng": 48.9,
+ "top3_official_pct_eng": 44.1,
+ "peak_day": "2026-04-28",
+ "peak_day_menc": 6939,
+ "prom_diario": 1809.0,
+ "top3_dias_pct": 10.4
+}

@@ -1,0 +1,365 @@
+{
+ "sent_total": {
+  "neg": 5.4,
+  "neu": 68.2,
+  "pos": 26.4
+ },
+ "sent_own": {
+  "neg": 0.0,
+  "neu": 32.8,
+  "pos": 67.2
+ },
+ "sent_earn": {
+  "neg": 5.5,
+  "neu": 68.7,
+  "pos": 25.8
+ },
+ "rse": {
+  "menc": 2354,
+  "eng": 1555751
+ },
+ "femsa": {
+  "menc": 842,
+  "eng": 20908,
+  "mon": {
+   "2026-04": 25,
+   "2026-05": 210,
+   "2026-06": 246,
+   "2026-07": 361
+  },
+  "top_authors": [
+   [
+    "rayados",
+    4102
+   ],
+   [
+    "FEMSA",
+    3739
+   ],
+   [
+    "futboltotal_mx",
+    1922
+   ],
+   [
+    "KEKO ONTIVEROS GUERRA 🍷",
+    1397
+   ],
+   [
+    "Tonatiuh ™️🇨🇦🇲🇽",
+    1300
+   ],
+   [
+    "Rayados",
+    1285
+   ]
+  ],
+  "quotes": [
+   {
+    "q": "¡Familia Rayada!🙌🏼 Está todo listo para iniciar con la Megalimpieza del Rio La Silla.🌳 Un gran partido que jugaremos entre Club, Aficionados, Voluntarios de FEMSA y parte de la comunidad que quieren dejar un le",
+    "author": "rayados",
+    "eng": 4102,
+    "date": "2026-06-13"
+   },
+   {
+    "q": "LA PANTERA, EL SUEÑO DE LA PANDILLA 🤠💣 Monterrey sigue pensando en Julián Quiñones como la mega bomba del nuevo proyecto. ➡️ Pese a que acaba de renovar contrato con el Al-Qadsiah hasta 2030, la directiva de Ra",
+    "author": "futboltotal_mx",
+    "eng": 1922,
+    "date": "2026-05-10"
+   },
+   {
+    "q": "Muy emocionado por saber que en unos días el “BB”-va a cumplir uno de los sueños para los que fue creado… con el liderazgo de @Rayados, el esfuerzo de miles de compañeros en la construcción también estará prese",
+    "author": "Tonatiuh ™️🇨🇦🇲🇽",
+    "eng": 1263,
+    "date": "2026-06-05"
+   },
+   {
+    "q": "¡Sumando esfuerzos por el cuidado de nuestro entorno! 🌳🧤 El Club de Futbol Monterrey, en conjunto con cíclica, FIFA Host City Monterrey y el Municipio de Guadalupe, Nuevo León, llevó a cabo la Mega Limpieza Ray",
+    "author": "FEMSA",
+    "eng": 1232,
+    "date": "2026-07-06"
+   },
+   {
+    "q": "El deporte también transforma los espacios y conecta a las personas ⚽✨ El Club de Futbol Monterrey celebró su 81 aniversario con la activación “The World’s Pitch”, llevando el fútbol al corazón de la ciudad a t",
+    "author": "FEMSA",
+    "eng": 1221,
+    "date": "2026-07-03"
+   },
+   {
+    "q": "La innovación también nace de las grandes alianzas 🤝💼 El Club de Futbol Monterrey y WOBI :: World of Business Ideas anunciaron una alianza estratégica que conecta el liderazgo empresarial con el deporte de alto",
+    "author": "FEMSA",
+    "eng": 733,
+    "date": "2026-07-25"
+   },
+   {
+    "q": "Mientras @FEMSA y su Consejo de Administración jugaban a la empresita socialmente responsable “Hagámoslo bien” y posicionar la marca RYDS @Rayados @CEMEX y Sinergia está convirtiendo a Tigres en un Grande del f",
+    "author": "CFM",
+    "eng": 703,
+    "date": "2026-05-06"
+   },
+   {
+    "q": "🚨🤠 CONFIRMADO. Matías Almeyda será nuevo DT de Monterrey. ->Firmará por 2 años con opción a extender por más tiempo ->Viaja a Monterrey en próximas fechas para oficialización ->Decisión conjunta entre asesor, D",
+    "author": "Fernando Esquivel",
+    "eng": 659,
+    "date": "2026-05-18"
+   }
+  ]
+ },
+ "kloese": {
+  "menc": 1360,
+  "eng": 133101,
+  "mon": {
+   "2026-04": 44,
+   "2026-05": 963,
+   "2026-06": 205,
+   "2026-07": 148
+  },
+  "top_authors": [
+   [
+    "RG La Deportiva",
+    18608
+   ],
+   [
+    "delapandillatodalavida",
+    17183
+   ],
+   [
+    "record_mexico",
+    8728
+   ],
+   [
+    "tycsports",
+    7359
+   ],
+   [
+    "futboltotal_mx",
+    5320
+   ],
+   [
+    "Multimedios Deportes",
+    4000
+   ]
+  ],
+  "quotes": [
+   {
+    "q": "\"Hoy comienza la nueva era exitosa del Monterrey. La misión fundamental de Dennis te Kloese es borrar del mapa a Tigres\" 🎙️: Willie González #Rayados #LigaMX #TigresUANL",
+    "author": "RG La Deportiva",
+    "eng": 7901,
+    "date": "2026-05-07"
+   },
+   {
+    "q": "🇲🇽🔙 Matías Almeyda podría regresar a la Liga MX luego de la finalización de su ciclo por Sevilla, paso que concluyó al ser despedido en medio de la lucha por permanecer en La Liga de España, al aparecer en la ó",
+    "author": "tycsports",
+    "eng": 7359,
+    "date": "2026-05-08"
+   },
+   {
+    "q": "¿PODRÍAN LLEGAR A RAYADOS? 😲💣 Con la llegada de Dennis Te Kloese, ya se rumora que tanto Matias Almeyda como Robin Van Persie podrían llegar a Monterrey. Aunque el fichaje del técnico del Feyernood se ve alejad",
+    "author": "record_mexico",
+    "eng": 6415,
+    "date": "2026-05-07"
+   },
+   {
+    "q": "Con lágrimas y siendo aplaudido por la afición, Dennis te Kloese se despide del Feyenoord. En las próximas semanas estará reportando con el Club de Fútbol Monterrey.",
+    "author": "delapandillatodalavida",
+    "eng": 5220,
+    "date": "2026-05-10"
+   },
+   {
+    "q": "🚨 𝙊𝙁𝙄𝘾𝙄𝘼𝙇: Dennis te Kloese es anunciado como el nuevo presidente deportivo del Club de Fútbol Monterrey. El directivo neerlandés cuenta con experiencia en el fútbol nacional e internacional. ¡BIENVENIDO, DENNI",
+    "author": "delapandillatodalavida",
+    "eng": 4394,
+    "date": "2026-05-07"
+   },
+   {
+    "q": "💣🚨¡EL ELEGIDO SERÍA MATÍAS ALMEYDA! Según informa diegoarmamedina, la directiva de Rayados estará en España este fin de semana para entrevistar al argentino. Es el más adelantado de las opciones. Walter Erviti ",
+    "author": "delapandillatodalavida",
+    "eng": 3928,
+    "date": "2026-05-06"
+   },
+   {
+    "q": "🚨 ¡TODO LISTO PARA VOLVER! 🚨 - Matías Almeyda llega este viernes 29 de mayo a Monterrey. - La pretemporada iniciará el 1 de junio en El Barrial, donde el plantel trabajará hasta el 7 afinando la parte física y ",
+    "author": "delapandillatodalavida",
+    "eng": 3641,
+    "date": "2026-05-26"
+   },
+   {
+    "q": "𝘼𝙖𝙣𝙗𝙞𝙚𝙙𝙞𝙣𝙜𝙚𝙣 𝙪𝙞𝙩 𝙋𝙧𝙚𝙢𝙞𝙚𝙧 𝙇𝙚𝙖𝙜𝙪𝙚 👀 🗣️ Dennis te Kloese heeft tekst en uitleg gegeven over zijn keuze om terug te keren naar Mexico en als Presidente Deportivo aan de slag te gaan bij CF Monterrey. 🇲🇽👔 👋 De afzwa",
+    "author": "voetbalinternational.nl",
+    "eng": 3488,
+    "date": "2026-05-07"
+   }
+  ]
+ },
+ "rse_detail": {
+  "menc": 2354,
+  "eng": 1555751,
+  "mon": {
+   "2026-04": 741,
+   "2026-05": 450,
+   "2026-06": 462,
+   "2026-07": 701
+  },
+  "top_authors": [
+   [
+    "rayados",
+    807845
+   ],
+   [
+    "Rayados",
+    389985
+   ],
+   [
+    "tiendarayados",
+    160274
+   ],
+   [
+    "rayadas",
+    44593
+   ],
+   [
+    "Rayadas",
+    39495
+   ],
+   [
+    "pumamexico",
+    37013
+   ]
+  ],
+  "quotes": [
+   {
+    "q": "Tu calidad te hizo brillar en la cancha, pero lo que nos marcó fue el vínculo que construiste con nuestra gente.💙 Te deseamos lo mejor en lo que viene, sergiocanalesoficial.🙌🏼 Monterrey siempre será tu casa #En",
+    "author": "rayados",
+    "eng": 118259,
+    "date": "2026-04-28"
+   },
+   {
+    "q": "“En la Vida y en la Cancha es mi forma de vivir. Coincidimos con el slogan de manera natural”.🎙️Matías Almeyda.🔥 ¡Vamos con todo, Pelado!👊🏼💙",
+    "author": "rayados",
+    "eng": 52166,
+    "date": "2026-05-31"
+   },
+   {
+    "q": "Tu calidad te hizo brillar en la cancha, pero lo que nos marcó fue el vínculo que construiste con nuestra gente.💙 Te deseamos lo mejor en lo que viene, Sergio Canales.🙌🏼 Monterrey siempre será tu casa #EnLaVida",
+    "author": "Rayados",
+    "eng": 49272,
+    "date": "2026-04-28"
+   },
+   {
+    "q": "Potencia, gol y entrega para nuestro ataque.🔥🔵⚪ ¡Bienvenido a Rayados, hugocuypers!🇧🇪Que tu instinto goleador y tu hambre de competir nos ayuden a escribir grandes historias con este escudo #EnLaVidaYEnLaCancha",
+    "author": "rayados",
+    "eng": 47349,
+    "date": "2026-07-23"
+   },
+   {
+    "q": "¡Bienvenido, Dennis!👊🏼 #EnLaVidaYEnLaCancha 💙",
+    "author": "rayados",
+    "eng": 45690,
+    "date": "2026-05-07"
+   },
+   {
+    "q": "Hay jugadores que marcan la diferencia.👊🏼 orbelin7pineda llega para impulsar una nueva etapa en La Pandilla.🔵⚪️ Volvo EX90, el volvocarmexico más seguro de la historia, está listo para acompañar a los Rayados e",
+    "author": "rayados",
+    "eng": 38068,
+    "date": "2026-07-21"
+   },
+   {
+    "q": "Comunicado a nuestra Afición.📝 #EnLaVidaYEnLaCancha",
+    "author": "rayados",
+    "eng": 35329,
+    "date": "2026-05-07"
+   },
+   {
+    "q": "Comunicado a nuestra Afición. 📝 #EnLaVidaYEnLaCancha",
+    "author": "rayados",
+    "eng": 34249,
+    "date": "2026-04-30"
+   }
+  ]
+ },
+ "bbva": {
+  "menc": 1903,
+  "eng": 380423,
+  "mon": {
+   "2026-04": 48,
+   "2026-05": 419,
+   "2026-06": 741,
+   "2026-07": 695
+  },
+  "top_authors": [
+   [
+    "rayados",
+    80492
+   ],
+   [
+    "Rayados",
+    61330
+   ],
+   [
+    "thearchbishopofbanterbury",
+    49895
+   ],
+   [
+    "viewsfrance",
+    17791
+   ],
+   [
+    "El Tigre Francés",
+    17216
+   ],
+   [
+    "tiendarayados",
+    16492
+   ]
+  ],
+  "quotes": [
+   {
+    "q": "Monterrey Stadium in Mexico has become one of the biggest talking points of the 2026 World Cup, and it’s not because of what’s happening on the pitch. Swipe 👉 The stadium was deliberately designed to frame Cerr",
+    "author": "thearchbishopofbanterbury",
+    "eng": 49895,
+    "date": "2026-06-28"
+   },
+   {
+    "q": "¡Regresamos a Casa! 👊🏼🏟️ Este sábado nos vemos en el BBVA para alentar a La Pandilla. 💙🤍 🆚 Santos Laguna ⌚ 19:00 🏟️ Estadio BBVA ¡Vamos, Rayados!🔥 hebmx",
+    "author": "rayados",
+    "eng": 20172,
+    "date": "2026-07-14"
+   },
+   {
+    "q": "¡Hoy juega el Monterrey!👊🏼🔵⚪ 🆚 Santos Laguna 🏟️ Estadio BBVA ⌚ 19:05 📺 Canal 5, TUDN y ViX ¡A ganar, Pandilla!🔥 powerademx",
+    "author": "rayados",
+    "eng": 16611,
+    "date": "2026-07-18"
+   },
+   {
+    "q": "¡Volvemos a Casa! 🏟️💙 Hoy juega la Pandilla. 👊🏼 ⏰ 9:30 AM 🏟️ Estadio BBVA 🆚 Sporting FC 📲 Sigue el partido en nuestras redes sociales. ¡Vamos, Rayados! 🔥",
+    "author": "rayados",
+    "eng": 16493,
+    "date": "2026-07-11"
+   },
+   {
+    "q": "\"La construcción del Estadio BBVA, conocido popularmente como \"\"El Gigante de Acero\"\", representó uno de los proyectos de infraestructura deportiva más ambiciosos e innovadores de México. La edificación del inm",
+    "author": "n.mas",
+    "eng": 15451,
+    "date": "2026-06-07"
+   },
+   {
+    "q": "¡Mañana volvemos a la cancha! 👊🏼🔵⚪ Acompaña a La Pandilla en su partido de preparación ante Sporting FC y sigue la transmisión EN VIVO desde el Estadio BBVA. 🏟️ 🗓️ Sábado 11 de Julio 🕘 9:30 A.M. 📲 Facebook Live",
+    "author": "rayados",
+    "eng": 14700,
+    "date": "2026-07-10"
+   },
+   {
+    "q": "L’architecture du Stade BBVA à Monterrey, au Mexique. 🏟️ Le stade BBVA (Estadio BBVA) fait partie des enceintes hôtes de la Coupe du Monde 2026, aux côtés de deux autres stades mexicains : le mythique Stade Azt",
+    "author": "viewsfrance",
+    "eng": 11120,
+    "date": "2026-06-21"
+   },
+   {
+    "q": "¡¡DE ÚLTIMO MOMENTO OFICIAL!! 😱👏🏼🇲🇽 🗣️|; Ya se confirmó, El Mundial regresaría a México para 2038. El presidente de la FIFA Gianni Infantino quedó encantado con la afición mexicana y México irá con todo por la ",
+    "author": "El Tigre Francés",
+    "eng": 9557,
+    "date": "2026-07-07"
+   }
+  ]
+ }
+}
