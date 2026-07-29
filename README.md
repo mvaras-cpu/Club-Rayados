@@ -11,9 +11,13 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 - Fuente vigente: `09541295-Descarga_Rayados_mejorada1.xlsx` (base "mejorada": mismos 166 467 registros que la original, con los nombres de autor calificados por plataforma, p. ej. `Rayados (Instagram)`).
 - Todos los cálculos numéricos se hacen sobre la **base completa** (sin muestreo ni estimaciones).
 
-## Estructura (9 capítulos + índice)
+## Estructura (6 capítulos + índice)
 
-01 Resumen ejecutivo · 02 Volumen y dinámica temporal · 03 Plataformas y distribución · 04 Autores y tipologías · 05 Narrativas y sentimiento · 06 Hitos del período · **07 Own & Earned Media** · **08 Rayados como institución** · 09 Recomendaciones.
+01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Recomendaciones.
+
+Archivos:
+- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 25 slides).
+- `Rayados_Social_Listening_Q2-Q3_2026_extendido.html` — versión extendida (9 capítulos, 40 slides) como respaldo; misma información, más granular.
 
 ## Own media · listado oficial (8 cuentas)
 
@@ -55,6 +59,11 @@ Todo lo demás es **earned media** (terceros).
 | Responsabilidad social | 2 354 menciones |
 
 ## Changelog
+
+**Iteración 4 (reestructura a 6 capítulos):**
+- Deck consolidado de 40 → 25 slides y de 9 → 6 capítulos, sin perder información. Se eliminaron las repeticiones: la curva diaria duplicada, los 3 detalles de hito redundantes, el recap de autores (4.4), la narrativa total (7.3) y los solapes de own vs earned.
+- Fusiones: Volumen+Hitos → cap. 02; Plataformas+Autores+own/earned → cap. 03 (nuevas slides "plataformas total" y "concentración · own vs earned"); Narrativas+Sentimiento → cap. 04 (nueva slide "qué funciona: own vs terceros"); FEMSA/te Kloese/RSE+otros → cap. 05.
+- La versión extendida de 40 slides queda como respaldo.
 
 **Iteración 3 (re-anclaje de hitos + narrativas por fuente):**
 - Re-anclada la narrativa de peaks/hitos con las fechas reales de la base: **28 abr** salida de Canales · **7 may** llegada de te Kloese · **21 may** anuncio de Almeyda como DT · **8 jul** fichaje de Rossi · **18–19 jul** Cuypers/Orbelín · **26 jul** debut en el Apertura. Corregidas las slides 2.2, 2.3, el divider del capítulo 02 y el capítulo 6 (6.1, 6.4). El anuncio de Almeyda estaba mal fechado (figuraba el 8 jul; fue el 21 may).
