@@ -56,6 +56,12 @@ Todo lo demás es **earned media** (terceros).
 
 ## Changelog
 
+**Iteración 3 (re-anclaje de hitos + narrativas por fuente):**
+- Re-anclada la narrativa de peaks/hitos con las fechas reales de la base: **28 abr** salida de Canales · **7 may** llegada de te Kloese · **21 may** anuncio de Almeyda como DT · **8 jul** fichaje de Rossi · **18–19 jul** Cuypers/Orbelín · **26 jul** debut en el Apertura. Corregidas las slides 2.2, 2.3, el divider del capítulo 02 y el capítulo 6 (6.1, 6.4). El anuncio de Almeyda estaba mal fechado (figuraba el 8 jul; fue el 21 may).
+- Slide 6.2: curva re-graficada con los 92 valores diarios reales; las anotaciones caen sobre los peaks verdaderos.
+- 4.1: los tres handles pasan a ser los de mayor engagement (Rayados en Instagram + Facebook + TikTok = **39,3 %**).
+- Añadidas dos slides al capítulo 07: **7.4 Narrativas · cuentas oficiales** (qué publica el club y qué le rinde) y **7.5 Narrativas · terceros** (qué amplifican y qué resuena), con análisis de tracción (engagement por pieza).
+
 **Iteración 2 (base mejorada + listado oficial de 8 cuentas):**
 - Own media redefinido al listado de 8 cuentas; recalculados 7.1 (volumen), 7.2 (ahora "own media por plataforma"), 4.1 (concentración), 4.2 (top autores, con `Rayados` desglosado por plataforma), 4.3 (tipologías) y 4.4 (hallazgos).
 - 4.1: se especifican las redes de los tres handles oficiales.

@@ -142,7 +142,37 @@ repl('Confirmación del Estadio Monterrey como venue del Mundial 2026 detona org
 repl('Peak asociado al anuncio mundialista.',
      'Peak asociado al anuncio de la salida de Sergio Canales.')
 repl('Tres peaks definen el período: el anuncio del Estadio como sede mundialista, el debut de Almeyda y el inicio del Mundial. Cada uno responde a un motor distinto.',
-     'Tres peaks definen el período: la salida de Sergio Canales, el episodio Japón/Barrial y el debut de Almeyda con el arranque del Mundial. Cada uno responde a un motor distinto.')
+     'Tres peaks definen el período: la salida de Sergio Canales, el anuncio de Almeyda como DT y los refuerzos y debut rumbo al Apertura. El Mundial fue una narrativa sostenida, no un peak de un solo día.')
+
+# ============================================================
+# Re-anclaje de fechas de hitos (base: 28 abr Canales · 21 may Almeyda ·
+# 8 jul fichaje Rossi · 18–26 jul refuerzos y debut)
+# ============================================================
+# 2.3 Peak 02: 21 may era "Japón rechaza a Tigres" -> anuncio de Almeyda
+repl('<p class="t-h3" style="margin-bottom:16px;">Japón rechaza a Tigres</p>',
+     '<p class="t-h3" style="margin-bottom:16px;">Almeyda es nuevo DT</p>')
+repl('La Selección Japonesa abandona las instalaciones de Tigres y entrena en el Barrial de Rayados. El episodio activa rivalidad local y amplificación masiva de aficionados.',
+     'Rayados oficializa a Matías Almeyda como DT. Los posts de bienvenida del club (123 K y 91 K de engagement) reencuadran la conversación de la crítica hacia la expectativa.')
+# 2.3 Peak 03
+repl('<p class="t-h3" style="margin-bottom:16px;">Debut Almeyda + Mundial arranca</p>',
+     '<p class="t-h3" style="margin-bottom:16px;">Refuerzos + debut de Almeyda</p>')
+repl('Doble spike en 9 días: presentación oficial de Almeyda y primer partido del Mundial en Estadio Monterrey. La conversación institucional y la global se superponen por primera vez.',
+     'Doble spike en la recta final: presentación de refuerzos (Cuypers y Orbelín, 18–19 jul) y debut de Almeyda en el Apertura 2026 (26 jul), con la expectativa deportiva al máximo.')
+
+# 6.1: tarjeta Almeyda 8 JUL -> 21 MAY
+repl('color:var(--n-400);">8 JUL</span>\n          <span style="font-family:var(--font-display);font-weight:900;font-size:38px;line-height:0.95;letter-spacing:-0.02em;color:var(--ink);">Llega<br>Almeyda</span>',
+     'color:var(--n-400);">21 MAY</span>\n          <span style="font-family:var(--font-display);font-weight:900;font-size:38px;line-height:0.95;letter-spacing:-0.02em;color:var(--ink);">Llega<br>Almeyda</span>')
+# 6.4 header + stats
+repl('8 de julio · Anuncio de Almeyda como DT', '21 de mayo · Anuncio de Almeyda como DT')
+repl('menciones · 8 jul</div>', 'menciones · 21 may</div>')
+repl('<div class="label">Jul 9 (día siguiente)</div>\n              <div class="value" style="font-size:44px;">2 131</div>',
+     '<div class="label">22 may (día siguiente)</div>\n              <div class="value" style="font-size:44px;">1 335</div>')
+# resto de "3 893" (tarjeta y stat de 6.1) -> 4 253
+html=html.replace('3 893','4 253')
+# 6.2 curva: re-graficada con los 92 valores diarios reales (incluye anotaciones correctas)
+svg62=open(f"{SC}/svg62_new.html",encoding="utf-8").read()
+_s6=html.index('data-label="06.2'); _sv0=html.index('<svg',_s6); _sv1=html.index('</svg>',_sv0)+6
+html=html[:_sv0]+svg62+html[_sv1:]
 
 print("Parte A (ediciones puntuales) OK")
 
@@ -336,6 +366,107 @@ seg=html[s:e]
 seg=seg.replace('data-label="07.5 Narrativas por volumen"','data-label="07.3 Narrativas por volumen"')
 seg=seg.replace('<span>7.5</span>','<span>7.3</span>')
 html=html[:s]+seg+html[e:]
+
+# ============================================================
+# NUEVAS SLIDES 7.4 (narrativas own) y 7.5 (narrativas terceros)
+# ============================================================
+def insert_after(label, new):
+    global html
+    s=html.index(f'<section data-label="{label}">')
+    e=html.index('</section>',s)+len('</section>')
+    html=html[:e]+"\n"+new.rstrip("\n")+html[e:]
+
+def nartable(rows, maxep, volhdr):
+    body=""
+    for nar,vol,pv,ep,tag in rows:
+        w=round(int(ep.replace(" ",""))/maxep*100,1)
+        col='var(--accent)' if tag=='up' else ('#B5251D' if tag=='down' else 'var(--ink)')
+        tagcell=''
+        if tag=='up': tagcell='<span class="pill" style="font-size:12px;padding:2px 9px;color:var(--accent);border-color:var(--accent);background:var(--accent-soft);">FUNCIONA</span>'
+        elif tag=='down': tagcell='<span class="pill pill--neg" style="font-size:12px;padding:2px 9px;">BAJO</span>'
+        body+=f'''<tr>
+            <td class="strong" style="font-size:19px;">{nar}</td>
+            <td class="num tabular" style="font-size:19px;">{vol}</td>
+            <td class="num tabular" style="font-size:15px;color:var(--n-500);">{pv}</td>
+            <td class="num tabular strong" style="font-size:19px;">{ep}</td>
+            <td style="width:260px;"><div class="barbar" style="height:14px;"><i style="width:{w}%;background:{col};"></i></div></td>
+            <td style="width:120px;">{tagcell}</td>
+          </tr>'''
+    return f'''<table class="tbl tnar" style="font-size:19px;">
+        <colgroup><col style="width:340px;"><col style="width:130px;"><col style="width:80px;"><col style="width:150px;"><col style="width:280px;"><col style="width:120px;"></colgroup>
+        <thead><tr><th>Narrativa</th><th class="num">{volhdr}</th><th class="num">%</th><th class="num">Eng/pieza</th><th>Tracción</th><th></th></tr></thead>
+        <tbody>{body}</tbody>
+      </table>'''
+
+# 7.4 OWN — ordenado por engagement por pieza (qué rinde)
+own_rows=[
+ ("Salida de Canales","7","0,4%","54 885","up"),
+ ("Era Almeyda","27","1,6%","14 471","up"),
+ ("Fichajes y refuerzos","140","8,1%","11 686","up"),
+ ("Casa Mundialista · Estadio sede","299","17,4%","7 894",""),
+ ("Apertura 2026 · partidos","293","17,0%","5 848",""),
+ ("Rivalidad Tigres / Japón‑Barrial","45","2,6%","5 025",""),
+ ("Responsabilidad social","33","1,9%","3 488","down"),
+ ("Rayadas · femenil","42","2,4%","1 339","down"),
+]
+sec74=f'''<section data-label="07.4 Narrativas desde cuentas oficiales">
+  <div class="slide">
+    <style>.tnar td,.tnar th{{padding:12px 16px;}}</style>
+    <header class="slide-header">{EY7}<div class="crumb"><span>7.4</span><span class="dot">·</span><b>Narrativas · cuentas oficiales</b></div></header>
+    <div class="frame" style="padding-bottom:130px;">
+      <p class="t-eyebrow" style="margin-bottom:8px;">Narrativas desde las 8 cuentas oficiales (own media) · 1 720 publicaciones</p>
+      <p class="t-h3" style="margin-bottom:20px;max-width:1300px;">Qué publica el club y qué le rinde: los hitos emocionales e institucionales mandan.</p>
+      {nartable(own_rows, 54885, "Posts")}
+      <div class="row" style="gap:24px;margin-top:20px;">
+        <div class="fill" style="padding:16px 22px;background:var(--accent-soft);border-left:3px solid var(--accent);">
+          <p class="t-small"><strong>Funciona:</strong> despedidas e hitos institucionales — Salida de Canales (54,9 K de engagement por pieza), Era Almeyda (14,5 K) y fichajes (11,7 K) —, más el Mundial/Estadio (7,9 K). Poco volumen, máximo impacto por pieza.</p>
+        </div>
+        <div class="fill" style="padding:16px 22px;background:#FBEEEC;border-left:3px solid #B5251D;">
+          <p class="t-small"><strong>No tanto:</strong> el contenido de Rayadas femenil (1,3 K por pieza) y de responsabilidad social (3,5 K) rinde muy por debajo del resto pese a publicarse con regularidad — conviene revisar formato, timing y narrativa.</p>
+        </div>
+      </div>
+      <p class="t-micro" style="margin-top:14px;color:var(--n-400);">Ordenado por engagement por pieza. Temas no excluyentes; base: 1 720 publicaciones de las cuentas oficiales sobre el corpus completo.</p>
+    </div>
+    {FOOT7}
+  </div>
+</section>'''
+
+# 7.5 EARNED — ordenado por engagement por pieza (qué resuena)
+earn_rows=[
+ ("Rayadas · femenil","2 186","1,3%","177","up"),
+ ("Casa Mundialista · Estadio sede","14 158","8,6%","175","up"),
+ ("Era Almeyda","13 738","8,3%","146","up"),
+ ("Rivalidad Tigres / Japón‑Barrial","18 415","11,2%","108",""),
+ ("Apertura 2026 · partidos","18 169","11,0%","102",""),
+ ("te Kloese · dirección","1 360","0,8%","98",""),
+ ("Fichajes y refuerzos","16 631","10,1%","93",""),
+ ("Responsabilidad social","334","0,2%","70","down"),
+ ("Salida de Canales","6 962","4,2%","55","down"),
+ ("Crítica directiva / sequía","5 110","3,1%","46","down"),
+]
+sec75=f'''<section data-label="07.5 Narrativas desde terceros">
+  <div class="slide">
+    <style>.tnar td,.tnar th{{padding:9px 16px;}}</style>
+    <header class="slide-header">{EY7}<div class="crumb"><span>7.5</span><span class="dot">·</span><b>Narrativas · terceros</b></div></header>
+    <div class="frame" style="padding-bottom:110px;">
+      <p class="t-eyebrow" style="margin-bottom:8px;">Narrativas desde terceros (earned media) · 164 747 menciones</p>
+      <p class="t-h3" style="margin-bottom:16px;max-width:1300px;">Qué amplifican los terceros y qué resuena: lo aspiracional supera al ruido crítico.</p>
+      {nartable(earn_rows, 177, "Menciones")}
+      <div class="row" style="gap:24px;margin-top:16px;">
+        <div class="fill" style="padding:16px 22px;background:var(--accent-soft);border-left:3px solid var(--accent);">
+          <p class="t-small"><strong>Resuena:</strong> las narrativas aspiracionales generan la mayor amplificación por mención — Mundial/Estadio (175), Era Almeyda (146) y el nicho femenil (177, poco volumen pero alta tracción).</p>
+        </div>
+        <div class="fill" style="padding:16px 22px;background:#FBEEEC;border-left:3px solid #B5251D;">
+          <p class="t-small"><strong>Ruido de fondo:</strong> la crítica directiva/sequía es persistente en volumen (5 110 menciones) pero de baja amplificación (46 por pieza); la RSE casi no es recogida por terceros (334 menciones). Oportunidad de amplificar la agenda positiva y la labor social.</p>
+        </div>
+      </div>
+      <p class="t-micro" style="margin-top:10px;color:var(--n-400);">Ordenado por engagement por pieza. El del own media (miles) es de otro orden que el de terceros (decenas–cientos): el club rinde por calidad de cuenta; los terceros, por volumen agregado.</p>
+    </div>
+    {FOOT7}
+  </div>
+</section>'''
+
+insert_after("07.3 Narrativas por volumen", sec74+"\n"+sec75)
 
 open(f"{SC}/Rayados_Social_Listening_v3.html","w",encoding="utf-8").write(html)
 
