@@ -35,8 +35,8 @@ repl('56px;">66%</span>', '56px;">65%</span>')
 repl('>29%</span>\n            <span class="sub">solo <span class="mono" style="font-size:16px;">@rayados</span> acumula 6 M interacciones</span>',
      '>26%</span>\n            <span class="sub"><span class="mono" style="font-size:16px;">Rayados</span> en Instagram acumula 5,4 M interacciones</span>')
 repl('Tres handles oficiales del club (rayados · Rayados · wearerayados) concentran ',
-     'Tres handles oficiales del club —Rayados en Instagram, Rayados en Facebook y wearerayados en Instagram— concentran ')
-repl('<strong>44%</strong> del engagement total', '<strong>38,6&nbsp;%</strong> del engagement total')
+     'Tres handles oficiales del club —Rayados en Instagram, Rayados en Facebook y Rayados en TikTok— concentran ')
+repl('<strong>44%</strong> del engagement total', '<strong>39,3&nbsp;%</strong> del engagement total')
 
 # ============================================================
 # 4.3 TIPOLOGÍAS (nueva base + listado 8) — reemplazar tabla completa
@@ -130,6 +130,19 @@ repl('La labor social se comunica bajo el sello #EnLaVidaYEnLaCancha, no como "F
      'La labor social se comunica bajo el sello #EnLaVidaYEnLaCancha.')
 repl('Hallazgo: la marca "Fundación Rayados" casi no aparece nominalmente en la conversación (1 mención directa). La RSE del club circula bajo programas concretos',
      'La RSE del club circula bajo programas concretos')
+
+# ============================================================
+# Corrección atribución del peak del 28 abr (era "Estadio sede
+# mundialista"; los datos muestran que fue la salida de Canales)
+# ============================================================
+repl('<p class="t-h3" style="margin-bottom:16px;">Estadio sede mundialista</p>',
+     '<p class="t-h3" style="margin-bottom:16px;">Salida de Sergio Canales</p>')
+repl('Confirmación del Estadio Monterrey como venue del Mundial 2026 detona orgullo institucional y cobertura internacional. La narrativa «Casa Mundialista» captura el 26% del período.',
+     'El anuncio oficial de la baja de Sergio Canales concentra el 60&nbsp;% de las menciones del día y las publicaciones de mayor engagement (despedidas del club y del jugador). Es el mayor peak de volumen del período.')
+repl('Peak asociado al anuncio mundialista.',
+     'Peak asociado al anuncio de la salida de Sergio Canales.')
+repl('Tres peaks definen el período: el anuncio del Estadio como sede mundialista, el debut de Almeyda y el inicio del Mundial. Cada uno responde a un motor distinto.',
+     'Tres peaks definen el período: la salida de Sergio Canales, el episodio Japón/Barrial y el debut de Almeyda con el arranque del Mundial. Cada uno responde a un motor distinto.')
 
 print("Parte A (ediciones puntuales) OK")
 
