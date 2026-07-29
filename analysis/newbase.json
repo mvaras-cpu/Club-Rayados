@@ -1,0 +1,284 @@
+{
+ "own": {
+  "menc": 1720,
+  "eng": 9487884,
+  "aut": 8,
+  "pmenc": 1.0,
+  "peng": 46.0
+ },
+ "earn": {
+  "menc": 164747,
+  "eng": 11144700,
+  "aut": 49487,
+  "pmenc": 99.0,
+  "peng": 54.0
+ },
+ "mon": {
+  "2026-04": {
+   "menc": 12272,
+   "own_share": 37.6
+  },
+  "2026-05": {
+   "menc": 49772,
+   "own_share": 27.0
+  },
+  "2026-06": {
+   "menc": 41778,
+   "own_share": 52.4
+  },
+  "2026-07": {
+   "menc": 62645,
+   "own_share": 50.8
+  }
+ },
+ "own_plat": [
+  {
+   "plat": "Instagram",
+   "menc": 707,
+   "eng": 6377597,
+   "epp": 9021
+  },
+  {
+   "plat": "Facebook",
+   "menc": 513,
+   "eng": 1953363,
+   "epp": 3808
+  },
+  {
+   "plat": "X (Twitter)",
+   "menc": 440,
+   "eng": 412772,
+   "epp": 938
+  },
+  {
+   "plat": "TikTok",
+   "menc": 43,
+   "eng": 740795,
+   "epp": 17228
+  },
+  {
+   "plat": "LinkedIn",
+   "menc": 17,
+   "eng": 3357,
+   "epp": 197
+  }
+ ],
+ "top30": [
+  {
+   "rank": 1,
+   "a": "Rayados (Instagram)",
+   "eng": 5405745,
+   "menc": 378,
+   "own": true
+  },
+  {
+   "rank": 2,
+   "a": "Rayados (Facebook)",
+   "eng": 1953363,
+   "menc": 513,
+   "own": true
+  },
+  {
+   "rank": 3,
+   "a": "Rayados (TikTok)",
+   "eng": 740795,
+   "menc": 43,
+   "own": true
+  },
+  {
+   "rank": 4,
+   "a": "wearerayados (instagram)",
+   "eng": 596494,
+   "menc": 117,
+   "own": true
+  },
+  {
+   "rank": 5,
+   "a": "RG La Deportiva",
+   "eng": 454789,
+   "menc": 1140,
+   "own": false
+  },
+  {
+   "rank": 6,
+   "a": "Rayados (X)",
+   "eng": 412772,
+   "menc": 440,
+   "own": true
+  },
+  {
+   "rank": 7,
+   "a": "delapandillatodalavida",
+   "eng": 365568,
+   "menc": 132,
+   "own": false
+  },
+  {
+   "rank": 8,
+   "a": "diegobonti",
+   "eng": 342390,
+   "menc": 38,
+   "own": false
+  },
+  {
+   "rank": 9,
+   "a": "rayadostv",
+   "eng": 333559,
+   "menc": 7,
+   "own": false
+  },
+  {
+   "rank": 10,
+   "a": "rayadoos_",
+   "eng": 258229,
+   "menc": 1,
+   "own": false
+  },
+  {
+   "rank": 11,
+   "a": "rayados_fb (Instagram)",
+   "eng": 214724,
+   "menc": 139,
+   "own": true
+  },
+  {
+   "rank": 12,
+   "a": "Multimedios Deportes",
+   "eng": 203344,
+   "menc": 754,
+   "own": false
+  },
+  {
+   "rank": 13,
+   "a": "FOX Sports MX",
+   "eng": 188469,
+   "menc": 184,
+   "own": false
+  },
+  {
+   "rank": 14,
+   "a": "record_mexico",
+   "eng": 177388,
+   "menc": 58,
+   "own": false
+  },
+  {
+   "rank": 15,
+   "a": "somosinvictos",
+   "eng": 161431,
+   "menc": 10,
+   "own": false
+  },
+  {
+   "rank": 16,
+   "a": "Tienda Rayados (Instagram)",
+   "eng": 160634,
+   "menc": 73,
+   "own": true
+  },
+  {
+   "rank": 17,
+   "a": "El Tigre Francés",
+   "eng": 129894,
+   "menc": 61,
+   "own": false
+  },
+  {
+   "rank": 18,
+   "a": "mediotiempocom",
+   "eng": 128662,
+   "menc": 99,
+   "own": false
+  },
+  {
+   "rank": 19,
+   "a": "latinus_us",
+   "eng": 125654,
+   "menc": 9,
+   "own": false
+  },
+  {
+   "rank": 20,
+   "a": "rayadas4life4",
+   "eng": 125142,
+   "menc": 3,
+   "own": false
+  },
+  {
+   "rank": 21,
+   "a": "fifa",
+   "eng": 122110,
+   "menc": 2,
+   "own": false
+  },
+  {
+   "rank": 22,
+   "a": "sportbible",
+   "eng": 111326,
+   "menc": 1,
+   "own": false
+  },
+  {
+   "rank": 23,
+   "a": "rayadas",
+   "eng": 107518,
+   "menc": 45,
+   "own": false
+  },
+  {
+   "rank": 24,
+   "a": "tycsports",
+   "eng": 107261,
+   "menc": 6,
+   "own": false
+  },
+  {
+   "rank": 25,
+   "a": "diario.ole",
+   "eng": 103386,
+   "menc": 5,
+   "own": false
+  },
+  {
+   "rank": 26,
+   "a": "Rayadas",
+   "eng": 98261,
+   "menc": 134,
+   "own": false
+  },
+  {
+   "rank": 27,
+   "a": "foxsportsmx",
+   "eng": 94326,
+   "menc": 82,
+   "own": false
+  },
+  {
+   "rank": 28,
+   "a": "sergiocanalesoficial",
+   "eng": 92017,
+   "menc": 1,
+   "own": false
+  },
+  {
+   "rank": 29,
+   "a": "raya2dcorazon",
+   "eng": 91633,
+   "menc": 13,
+   "own": false
+  },
+  {
+   "rank": 30,
+   "a": "scespn",
+   "eng": 91599,
+   "menc": 5,
+   "own": false
+  }
+ ],
+ "aut_unicos": 49495,
+ "top30_peng": 65.4,
+ "top1_peng": 26.2,
+ "top1_name": "Rayados (Instagram)",
+ "three_handles_peng": 38.6,
+ "all_official_peng": 46.0
+}

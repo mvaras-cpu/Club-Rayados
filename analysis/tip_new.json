@@ -1,0 +1,37 @@
+[
+ {
+  "tipo": "Cuentas propias del club",
+  "eng": 9487884,
+  "menc": 1720,
+  "peng": 46.0,
+  "pmenc": 1.0
+ },
+ {
+  "tipo": "Medios y prensa deportiva",
+  "eng": 2967961,
+  "menc": 45050,
+  "peng": 14.4,
+  "pmenc": 27.1
+ },
+ {
+  "tipo": "Fan accounts / comunidad rayada",
+  "eng": 2082116,
+  "menc": 8410,
+  "peng": 10.1,
+  "pmenc": 5.1
+ },
+ {
+  "tipo": "Ciudadanía / individuales",
+  "eng": 5802572,
+  "menc": 110733,
+  "peng": 28.1,
+  "pmenc": 66.5
+ },
+ {
+  "tipo": "Organismos / internacional",
+  "eng": 292051,
+  "menc": 554,
+  "peng": 1.4,
+  "pmenc": 0.3
+ }
+]

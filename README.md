@@ -8,56 +8,62 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 
 - **166 467 registros** (menciones y posts), una sola tabla.
 - Columnas: `published`, `content`, `source_type`, `extra_author_attributes.name`, `engagement`, `Visualizaciones TikTok`.
-- Todos los cálculos numéricos se hicieron sobre la **base completa** (sin muestreo ni estimaciones).
+- Fuente vigente: `09541295-Descarga_Rayados_mejorada1.xlsx` (base "mejorada": mismos 166 467 registros que la original, con los nombres de autor calificados por plataforma, p. ej. `Rayados (Instagram)`).
+- Todos los cálculos numéricos se hacen sobre la **base completa** (sin muestreo ni estimaciones).
 
-## Cambios respecto a la versión anterior
+## Estructura (9 capítulos + índice)
 
-### Capítulos nuevos
-- **07 · Own & Earned Media** — profundización en el contenido propio del club (own) vs las menciones de terceros (earned):
-  1. Volumen total, timeline por mes y autores.
-  2. Distribución por plataforma (menciones + engagement + en qué destaca cada una), ordenada por menciones.
-  3. Principales autores por engagement (own + earned).
-  4. Distribución de sentimiento (own vs earned).
-  5. Principales narrativas ordenadas por volumen de menciones.
-- **08 · Rayados como institución** — dimensión corporativa:
-  1. FEMSA (propietario).
-  2. Dennis te Kloese (presidente deportivo).
-  3. Responsabilidad social (Megalimpieza Río La Silla, Escuelas Rayados y clínicas para la niñez, The World's Pitch, alianza con UNICEF).
-  4. Otros temas institucionales (Estadio Monterrey como sede mundialista, patrocinio BBVA, 81 aniversario, alianza WOBI).
+01 Resumen ejecutivo · 02 Volumen y dinámica temporal · 03 Plataformas y distribución · 04 Autores y tipologías · 05 Narrativas y sentimiento · 06 Hitos del período · **07 Own & Earned Media** · **08 Rayados como institución** · 09 Recomendaciones.
 
-### Correcciones
-1. **Estimaciones → base total.** La slide de tipologías (4.3) se recalculó sobre los 166 467 registros (se eliminó la nota "Estimaciones basadas en el top 30 de autores").
-2. **Sin medianas.** Se eliminaron los cálculos de mediana ("Mediana diaria" en 2.1 y "Mediana del corpus completo = 0 interacciones" en 3.2).
-3. **"pico/picos" → "peak/peaks"** en todo el deck.
-4. **Top autores por engagement (4.2)** recalculado sobre la base (los valores coincidían con la base; se confirmaron).
+## Own media · listado oficial (8 cuentas)
 
-### Estructura
-- Se agregó un **índice** con los 9 capítulos.
-- Numeración **consecutiva y ascendente desde 1** (antes iniciaba en 02 y saltaba el 08). El índice no cuenta como capítulo.
+Para todo análisis de cuentas propias / own media se usa este listado (nombre exacto en la base):
 
-## Metodología de las nuevas métricas
+- `Club de Futbol Monterrey Rayados (Linkedin)`
+- `Rayados (Facebook)`
+- `Rayados (Instagram)`
+- `Rayados (TikTok)`
+- `Rayados (X)`
+- `rayados_fb (Instagram)`
+- `Tienda Rayados (Instagram)`
+- `wearerayados (instagram)`
 
-- **Own media (cuentas propias del club, 12):** `rayados`, `Rayados`, `wearerayados`, `rayadostv`, `rayados_fb`, `tiendarayados`, `rayadas`, `Rayadas`, `Rayados English`, `Club de Futbol Monterrey`, `Club de Futbol Monterrey Rayados`, `Rayados Fuerzas Básicas`. **Earned media:** el resto de autores (49 481 cuentas).
-- **Plataformas:** derivadas de `source_type`; engagement por plataforma = suma real de la columna `engagement`.
-- **Tipologías (4.3):** clasificación de todos los autores por patrones de nombre + tipo de fuente; suma de engagement por categoría.
-- **Sentimiento (7.4):** clasificación léxica automatizada (léxico positivo/negativo en español) sobre el 100 % de los registros. Complementa la lectura editorial de terceros del capítulo 05.
-- **Narrativas (7.5) y temas corporativos (cap. 08):** etiquetado por palabras clave sobre el texto de la base completa; los temas no son mutuamente excluyentes.
+Todo lo demás es **earned media** (terceros).
 
-## Cifras clave (base completa)
+## Metodología de las métricas
+
+- **Plataformas:** derivadas de `source_type`; engagement = suma real de la columna `engagement`.
+- **Tipologías (4.3):** own = listado de 8 cuentas; el resto se clasifica por patrones de nombre de autor + tipo de fuente. Suma de engagement por categoría sobre la base completa.
+- **Sentimiento (5.1):** clasificación editorial de terceros heredada del pipeline original (excluye cuentas propias). No hay campo de sentimiento en el export, por lo que se conserva sin recomputar.
+- **Narrativas (7.3) y temas corporativos (cap. 08):** etiquetado por palabras clave sobre el texto de la base completa; los temas no son mutuamente excluyentes.
+
+## Cifras clave (base completa · listado de 8 cuentas)
 
 | Métrica | Valor |
 |---|---|
 | Menciones totales | 166 467 |
 | Interacciones totales | 20 632 584 (20,6 M) |
-| Autores únicos | 49 493 |
-| Own media | 2 319 menciones (1,4 %) · 10,1 M eng (48,9 %) |
-| Earned media | 164 148 menciones (98,6 %) · 10,6 M eng (51,1 %) |
-| Top-30 autores | 66,2 % del engagement |
-| Peak de volumen | 28 abr · 6 939 menciones (3,8× el promedio diario) |
+| Autores únicos | 49 495 |
+| Own media | 1 720 menciones (1,0 %) · 9,5 M eng (46,0 %) · 8 cuentas |
+| Earned media | 164 747 menciones (99,0 %) · 11,1 M eng (54,0 %) · 49 487 autores |
+| Top-30 autores | 65,4 % del engagement |
+| Cuenta #1 | Rayados en Instagram · 5,4 M (26,2 %) |
+| Tres handles oficiales (IG + FB + wearerayados) | 38,6 % del engagement |
+| Own media por plataforma | Instagram 707 posts / 6,38 M · Facebook 513 / 1,95 M · X 440 / 413 K · TikTok 43 / 741 K · LinkedIn 17 / 3 K |
 | FEMSA | 842 menciones |
 | Dennis te Kloese | 1 360 menciones · peak en mayo |
 | Responsabilidad social | 2 354 menciones |
 
+## Changelog
+
+**Iteración 2 (base mejorada + listado oficial de 8 cuentas):**
+- Own media redefinido al listado de 8 cuentas; recalculados 7.1 (volumen), 7.2 (ahora "own media por plataforma"), 4.1 (concentración), 4.2 (top autores, con `Rayados` desglosado por plataforma), 4.3 (tipologías) y 4.4 (hallazgos).
+- 4.1: se especifican las redes de los tres handles oficiales.
+- Eliminadas las slides 7.3 (top autores own+earned, redundante con 4.2) y 7.4 (sentimiento own vs earned, inconsistente con 5.1); la narrativa pasó a ser 7.3.
+- 8.3: se quitó la mención a "Fundación Rayados".
+
+**Iteración 1:** capítulos 07 (Own & Earned) y 08 (Institucional) nuevos; índice; numeración consecutiva; eliminación de medianas; "pico"→"peak"; recálculo de tipologías y top autores.
+
 ## Reproducibilidad
 
-La carpeta `analysis/` contiene los scripts de transformación (`build_step1.py` … `build_final.py`) y los agregados calculados (`analisisA.json`, `analisisB.json`, `tipologias.json`). El archivo de datos crudo (Excel) no se versiona.
+`analysis/` contiene los scripts de transformación (`build_step*.py`, `build_final.py`, `build_v3.py`) y los agregados calculados (`analisisA.json`, `analisisB.json`, `tipologias.json`, `newbase.json`, `tip_new.json`). El archivo de datos crudo (Excel) no se versiona.
