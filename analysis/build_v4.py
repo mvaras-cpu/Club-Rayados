@@ -240,7 +240,7 @@ body.append(rewrite(sec("05.1 Sentimiento global de terceros"),"04 · Narrativas
 body.append(divider("05","Rayados como institución","Rayados como<br>institución.","Más allá del equipo de fútbol: FEMSA como propietario, Dennis te Kloese en la dirección deportiva y la responsabilidad social del club."))
 body.append(rewrite(sec("08.1 FEMSA — propietario"),"05 · Rayados como institución","5.1","05.1 FEMSA · el propietario"))
 body.append(rewrite(sec("08.2 Dennis te Kloese"),"05 · Rayados como institución","5.2","05.2 Dennis te Kloese"))
-body.append(new53)
+body.append(rewrite(sec("08.3 Responsabilidad social / Fundación"),"05 · Rayados como institución","5.3","05.3 Responsabilidad social"))
 # Cap 6
 body.append(divider("06","Recomendaciones","Recomendaciones.","Lineamientos estratégicos de comunicación y monitoreo derivados de los hallazgos del trimestre: Mundial, era Almeyda y tensiones narrativas con la afición."))
 body.append(rewrite(sec("09.1 Recomendaciones — Vigilancia y monitoreo"),"06 · Recomendaciones","6.1","06.1 Vigilancia y monitoreo"))
@@ -248,6 +248,21 @@ body.append(rewrite(sec("09.2 Recomendaciones — Lineamientos estratégicos"),"
 body.append(sec("Cierre"))
 
 out=HEAD+"\n".join(body)+"\n"+TAIL
+
+# ---- Correcciones finales ----
+# (1) periodo real en vez de Q2–Q3
+out=out.replace("Q2–Q3 2026","Abr–Jul 2026").replace("Reporte Q2 2026","Reporte Abr–Jul 2026")
+# (2) portada: título más pequeño + subtítulo recortado
+out=out.replace('<h1 class="cover-title" style="max-width: 1560px; line-height: .9;">',
+                '<h1 class="cover-title" style="max-width: 1560px; line-height: .95; font-size: 120px;">')
+out=out.replace(' Volumen, plataformas, autores, narrativas y sentimiento — con capítulos dedicados a own &amp; earned media y a la dimensión institucional del club (FEMSA, te Kloese, responsabilidad social).','')
+# (3) título de sentimiento consistente con la distribución (neu 47% / neg 28% / pos 25%)
+out=out.replace('La conversación es mayoritariamente positiva, pero carga una veta negativa estructural del 28%.',
+                'El tono dominante es neutro; la veta negativa (28%) supera levemente al entusiasmo (25%).')
+# cierre: misma imprecisión ("mayoritariamente positiva")
+out=out.replace('La conversación es mayoritariamente positiva, pero las narrativas de crítica institucional y sequía de títulos conviven latentes',
+                'La conversación se enciende en positivo con cada hito, pero el tono de fondo es neutro y las narrativas de crítica institucional y sequía de títulos conviven latentes')
+
 open(f"{SC}/Rayados_Social_Listening_v4.html","w",encoding="utf-8").write(out)
 
 # validación
