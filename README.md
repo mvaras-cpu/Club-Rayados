@@ -16,7 +16,7 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Recomendaciones.
 
 Archivos:
-- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 25 slides).
+- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 26 slides).
 - `Rayados_Social_Listening_Q2-Q3_2026_extendido.html` — versión extendida (9 capítulos, 40 slides) como respaldo; misma información, más granular.
 
 ## Own media · listado oficial (8 cuentas)
@@ -54,11 +54,20 @@ Todo lo demás es **earned media** (terceros).
 | Cuenta #1 | Rayados en Instagram · 5,4 M (26,2 %) |
 | Tres handles oficiales (IG + FB + wearerayados) | 38,6 % del engagement |
 | Own media por plataforma | Instagram 707 posts / 6,38 M · Facebook 513 / 1,95 M · X 440 / 413 K · TikTok 43 / 741 K · LinkedIn 17 / 3 K |
-| FEMSA | 842 menciones |
-| Dennis te Kloese | 1 360 menciones · peak en mayo |
-| Responsabilidad social | 2 354 menciones |
+| FEMSA | 842 menciones (0,51% del corpus) · 99,5% earned / 0,5% own |
+| Dennis te Kloese | 1 360 menciones (0,82%) · 100% earned · peak en mayo |
+| Responsabilidad social | 168 menciones de programas concretos · ~450 en conversación amplia (excluye el hashtag #EnLaVidaYEnLaCancha) |
+| Almeyda (DT) | 13 765 menciones (8,3% del corpus) |
 
 ## Changelog
+
+**Iteración 5 (marca, jugadores y consistencia institucional):**
+- **Cap. 04 reordenado a 3 slides.** Nueva **4.1 «Estructura: futbolística vs no-futbolística»**: la conversación es ~85% futbolística y ~15% de marca/institución; se abre la dimensión de marca en sub-temas (Dirigencia 8 142 · Patrocinio 5 718 · Mística 4 995 · Historia 4 684 · Estadio 1 249 · RSE ~170) con su tono, y se marca que el frente negativo vive en lo institucional («directiva / plantel caro que no gana»). Reemplaza la antigua «qué funciona: own vs terceros».
+- Nueva **4.2 «Almeyda y jugadores»**: desglose de la conversación sobre Almeyda (DT, 13 765 menciones / 8,3%, con veta escéptica del 9%) y ranking de jugadores por volumen (Canales, Orbelín, Cuypers, Andrada, Rossi, Ocampos, Óliver Torres, Ambriz). Excluye al DT, a quienes ya no juegan en Rayados y a los nombres de mercado/rumor.
+- **Sentimiento → 4.3.** El segmento del 28% se re-etiqueta **«Crítico / no-positivo»** (agrupa crítica al club y rivalidad bidireccional); se aclara que el negativo estructural dirigido al club es **~3–4%** y de baja tracción (49 de eng/pieza vs 175 de lo aspiracional): el 28% estaba sobre-representando el peso real del descontento.
+- **FEMSA (5.1):** se agrega lectura de corpus — 0,51% del total, **99,5% earned / 0,5% own** (99 pts de diferencia), con narrativas por segmento.
+- **te Kloese (5.2):** 0,82% del corpus, **100% earned** (0% own), con las tres narrativas dominantes (nueva era / arquitecto de Almeyda / despedida del Feyenoord).
+- **RSE (5.3) corregida:** la cifra pasa de **2 354 → 168** menciones de programas concretos (Megalimpieza, Escuelas Rayados, The World's Pitch, UNICEF), **excluyendo el hashtag** general #EnLaVidaYEnLaCancha (usado en +2 000 posts, que inflaba el conteo). La conversación amplia de comunidad llega a ~450 menciones, impulsada por las cuentas propias.
 
 **Iteración 4 (reestructura a 6 capítulos):**
 - Deck consolidado de 40 → 25 slides y de 9 → 6 capítulos, sin perder información. Se eliminaron las repeticiones: la curva diaria duplicada, los 3 detalles de hito redundantes, el recap de autores (4.4), la narrativa total (7.3) y los solapes de own vs earned.
