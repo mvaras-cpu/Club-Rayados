@@ -13,7 +13,7 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 
 ## Estructura (6 capítulos + índice)
 
-01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Estrategia.
+01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Estrategia de monitoreo.
 
 Archivos:
 - `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 28 slides).
@@ -62,6 +62,13 @@ Todo lo demás es **earned media** (terceros).
 | Almeyda (DT) | 13 765 menciones (8,3% del corpus) |
 
 ## Changelog
+
+**Iteración 9 (pendientes resueltos y ajustes de rótulos):**
+- **Capítulo 06 renombrado** de «Estrategia» a **«Estrategia de monitoreo»** (índice, divider, encabezados y pies).
+- **Slide 4.1:** se retiran las menciones a la metodología en pantalla (el eyebrow queda «Sentimiento · conversación de terceros», el pill «Base: menciones de terceros») y se elimina la nota al pie sobre la clasificación por léxico. La metodología se conserva documentada en este README.
+- **Etiqueta «Casa Mundialista» alineada** (pendiente B): en 4.2 la narrativa pasa a **«Mundial · estadio sede»** (14 158 earned); en 4.3 el sub-tema pasa a **«Estadio como marca»** (1 249 / 0,8 %). Así una misma etiqueta deja de designar dos universos distintos.
+- **Own en la dimensión de marca** (pendiente C, versión completa): en 4.3 el encabezado de la tabla se aclara a «Sub-tema de marca · resonancia en terceros» y se añade la nota «Qué empuja el own en esta dimensión» (RSE, aniversario, patrocinios, mística; ~31 % de lo que publica el club es institucional).
+- Queda anotado en `PENDIENTES.md` un hallazgo nuevo por confirmar: la slide 1.1 afirma «Casa Mundialista 26 % del corpus», cifra legacy que no cuadra con la base.
 
 **Iteración 8 (sentimiento recomputado, cap. 04 reordenado y percepción earned):**
 - **Sentimiento recomputado por léxico explícito** (antes 28/47/25 editorial, inconsistente): el 28 % negativo estaba sobreestimado. La crítica dura dirigida al club es **5,5 %** (dirigencia/gestión, sequía, reacción a derrotas) y, sumando la rivalidad hostil que sí ataca a Rayados (1,4 %), el negativo real es **7 %**. La rivalidad sin carga clara pasa a neutro. Nueva distribución: **Negativo 7 · Neutro 75 · Positivo 18**. Se corrigió el callout de la slide de estructura para que sea coherente.

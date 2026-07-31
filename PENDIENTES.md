@@ -1,21 +1,26 @@
-# Pendientes (a confirmar por el cliente antes de ejecutar)
+# Pendientes y registro de decisiones
 
-## 1. Alinear la etiqueta «Casa Mundialista» entre slides 4.2 y 4.3
+## Abierto — a confirmar por el cliente
 
-**Estado:** anotado, en espera de confirmación del cliente (Artool/Rayados) para ejecutar en la siguiente iteración.
+### A. Slide 1.1 (Resumen ejecutivo): «Casa Mundialista concentra el 26 % del corpus»
+**Estado:** detectado en iteración 9, **en espera de confirmación** para corregir.
 
-**Problema:** la etiqueta «Casa Mundialista» se usa para **dos métricas distintas** con universos diferentes, lo que confunde:
-- **Slide 4.2 (Narrativas: qué funciona):** «Casa Mundialista» = **14 158** menciones (earned) → es la **narrativa amplia del Mundial / estadio-sede** (todo lo que habla del Mundial 2026, la sede, el estadio como venue).
-- **Slide 4.3 (Estructura de la conversación):** «Estadio como marca / sede — Casa Mundialista» = **1 249** menciones (0,8 %) → es solo el **sub-tema estrecho** en que el estadio aparece como activo de marca (BBVA, «Gigante de Acero»).
+La slide 1.1 afirma que la narrativa «Casa Mundialista» concentra el **26 % del corpus**. Es una cifra *legacy* del reporte original que **no cuadra** con la base:
+- «mundial» (amplio) = 11 916 (7,2 % de terceros); «mundial|estadio» = 17 930 (10,9 %).
+- La narrativa «Mundial · estadio sede» de la slide 4.2 son 14 158 menciones (~8,6 % de terceros).
+- El 26 % no corresponde a ningún conteo verificable.
 
-**Hechos de la base (para sustentar el ajuste):**
-- La frase literal «casa mundialista» aparece **solo 4 veces** en la base → ambos números son *proxies*, no conteos de la frase.
-- El 1 249 es un **subconjunto** del 14 158 (la parte está dentro del todo; no se contradicen).
-- Verificación en terceros: «mundial» = 11 916 (7,2 %); «mundial|estadio» = 17 930 (10,9 %) → el 14 158 cae en esa banda amplia. «Estadio como marca» (BBVA / Estadio Monterrey / Gigante de Acero) = 2 758 (1,7 %) → el 1 249 es una versión más estricta.
+**Propuesta (a validar):** reemplazar «26 % del corpus» por la cifra real de la narrativa Mundial/estadio (~8–11 % según el alcance que se elija), y usar el mismo nombre «Mundial · estadio sede» para no chocar con el sub-tema «Estadio como marca» (4.3).
 
-**Fix propuesto (solo renombrar, sin cambiar cifras):**
-- Slide 4.2 → renombrar la narrativa a **«Mundial · estadio sede»** (amplia, 14 158).
-- Slide 4.3 → mantener **«Estadio como marca»** (sub-tema, 1 249 / 0,8 %).
-- Así queda explícito que una es el todo (narrativa Mundial) y la otra es la parte (estadio como marca).
+---
 
-**Nota sobre la clasificación no-futbolística (4.3):** «Estadio como marca / sede» está en la dimensión no-futbolística porque trata al estadio como activo reputacional / de marca (sede del Mundial, símbolo institucional), no como desempeño deportivo. Esto se conserva.
+## Resuelto en iteración 9
+
+### B. Alinear la etiqueta «Casa Mundialista» (4.2 vs 4.3) ✅
+- **Slide 4.2:** la narrativa se renombró a **«Mundial · estadio sede»** (14 158 menciones earned) en las tablas own y earned.
+- **Slide 4.3:** el sub-tema pasó a **«Estadio como marca»** (1 249 / 0,8 %); «Casa Mundialista» queda solo como ejemplo en la columna «qué contiene».
+- Motivo: la misma etiqueta designaba dos universos distintos (la narrativa amplia del Mundial vs. el sub-tema de marca del estadio). La frase literal «casa mundialista» aparece solo 4 veces en la base; ambos números eran proxies.
+
+### C. Own también habla de «No futbolística · marca e institución» (versión completa) ✅
+- **Slide 4.3:** se aclaró el encabezado de la tabla a **«Sub-tema de marca · resonancia en terceros»** y se añadió una nota **«Qué empuja el own en esta dimensión»**: el club es el motor de la marca positiva (RSE, 81 aniversario, patrocinios BBVA/WOBI/VivaAerobus, mística); ~31 % de lo que publica el club es institucional, casi a la par de lo futbolístico. La tabla muestra cómo esa marca resuena y se critica en terceros.
+- Sustento (base): own dedica 31 % de sus posts a marca/institución vs 15 % en terceros. La dimensión negativa (dirigencia) es ~100 % terceros: el club no critica a su propia directiva.
