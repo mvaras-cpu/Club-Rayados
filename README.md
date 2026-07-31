@@ -13,7 +13,7 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 
 ## Estructura (6 capítulos + índice)
 
-01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Recomendaciones.
+01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Estrategia.
 
 Archivos:
 - `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 27 slides).
@@ -56,10 +56,16 @@ Todo lo demás es **earned media** (terceros).
 | Own media por plataforma | Instagram 707 posts / 6,38 M · Facebook 513 / 1,95 M · X 440 / 413 K · TikTok 43 / 741 K · LinkedIn 17 / 3 K |
 | FEMSA | 842 menciones (0,51% del corpus) · 99,5% earned / 0,5% own |
 | Dennis te Kloese | 1 360 menciones (0,82%) · 100% earned · peak en mayo |
-| Responsabilidad social | 168 menciones de programas concretos · ~450 en conversación amplia (excluye el hashtag #EnLaVidaYEnLaCancha) |
+| Responsabilidad social | 168 menciones de programas concretos: Medio ambiente 35 (Megalimpieza) · Deporte y niñez 61 (Escuelas Rayados) · Comunidad/legado 39 (The World's Pitch) · Infancia 28 (UNICEF) |
 | Almeyda (DT) | 13 765 menciones (8,3% del corpus) |
 
 ## Changelog
+
+**Iteración 7 (ajustes finales de formato y capítulo 06):**
+- Slide 3.3: los dos valores de engagement ≥ 1 M pasan de K a M (`5 406 K → 5,4 M`, `1 953 K → 1,9 M`); el resto de la columna se mantiene en K.
+- Se retiran las notas al pie del ranking de jugadores (4.2) y de la percepción de FEMSA (5.2), y se recorta la nota de RSE (5.4) dejando solo «Medido por programas concretos (Megalimpieza, Escuelas Rayados, The World's Pitch, UNICEF)».
+- Slide 5.4: la tarjeta **Infancia** cambia el símbolo «+» por su volumen real, **28 menciones** (alianza UNICEF). Las cuatro tarjetas (35 · 61 · 39 · 28) suman 163, coherente con el titular de 168.
+- Capítulo **06 «Recomendaciones» renombrado a «Estrategia»** en índice, divider, encabezados y pies (6.1 y 6.2).
 
 **Iteración 6 (percepción de FEMSA en la audiencia):**
 - Nueva slide **5.2 «FEMSA · percepción de la audiencia»**, insertada tras 5.1. Analiza los comentarios de las publicaciones de @rayados sobre la Megalimpieza del Río La Silla (iniciativa FEMSA): 14 comentarios de audiencia clasificados en **Promotor (64%) · Promotor condicional (21%) · Detractor (14%)**. Hallazgo: la audiencia percibe a FEMSA como promotor y **ninguna crítica ataca a FEMSA como propietario** — el malestar se redirige al plantel (deportivo) o al Estado (impuestos); el único frente a gestionar es la continuidad de la labor social. Fuentes: `Comentarios_1.xlsx` y `Comentarios_2.xlsx` (exports de comentarios; muestra cualitativa/direccional, no estadística).
