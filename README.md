@@ -63,6 +63,9 @@ Todo lo demás es **earned media** (terceros).
 
 ## Changelog
 
+**Iteración 12 (corrige el «20 %» de «Era Almeyda» en el resumen ejecutivo):**
+- **Slide 1.1 (tarjeta B):** el «20 % del volumen» de la narrativa «Era Almeyda» era una cifra legacy inflada (el conteo real es ~8–10 % del volumen / ~13 % de interacciones; ni el alcance más amplio llega a 20 %). Se corrigió a **8,3 %**, dejándola consistente con las slides 4.2 (earned 13 738) y 4.4 (Almeyda 13 765 = 8,3 %).
+
 **Iteración 11 (slide 4.3 recalculada con criterio corregido):**
 - Se corrigió la clasificación **futbolística vs no-futbolística**: el contenido de equipo, porras, goles y **mística/identidad** ahora cuenta como **futbolística** (antes inflaba la dimensión de marca). Nueva estructura: **~93 % futbolística / ~7 % no-futbolística** (antes ~85 / 15).
 - La tabla de sub-temas institucionales queda solo con lo **corporativo/off-pitch**: Patrocinio 3,4 % · Dirigencia 2,2 % · Estadio-sede 1,2 % · Aniversario 0,2 % · RSE 0,2 % (se retiran «Mística» e «Historia», que pasan a futbolística).

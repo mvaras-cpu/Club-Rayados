@@ -15,7 +15,7 @@ Cifras reales (base completa): la narrativa Mundial/estadio es **~11 % del volum
 
 **Aplicado:** la tarjeta A de 1.1 ahora dice «La narrativa «Mundial · estadio sede» es ~11 % del volumen, pero moviliza ~1 de cada 4 interacciones (~24 %), en su mayoría positivas…», corrigiendo el rótulo y alineando el nombre con la slide 4.2.
 
-_Nota: quedan en 1.1 otras cifras legacy del reporte original (p. ej. «Era Almeyda 20 % del volumen», «anecdotario Tigres 14 %», «Mercenarios/directiva 15 %») que no se han auditado contra la base. Si se desea, se pueden revisar en una próxima iteración._
+_Nota: quedan en 1.1 otras cifras legacy del reporte original que no se han auditado contra la base: «anecdotario Tigres 14 % del corpus» (tarjeta D), «suman el 18 % del corpus» de los refuerzos (tarjeta C), «Mercenarios/directiva 15 %» y «Sequía de títulos 7 %… juntas 22 %» (tarjeta E). Si se desea, se revisan juntas en una próxima iteración. (La cifra «Era Almeyda 20 %» ya se corrigió en la iteración 12 → 8,3 %.)_
 
 ---
 
