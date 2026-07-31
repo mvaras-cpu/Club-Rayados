@@ -63,6 +63,9 @@ Todo lo demás es **earned media** (terceros).
 
 ## Changelog
 
+**Iteración 10 (corrección del «26 %» en el resumen ejecutivo):**
+- **Slide 1.1 (tarjeta A):** se corrigió el rótulo de la narrativa Mundial/estadio. El «26 % del corpus» era el **share de interacciones** mal etiquetado como volumen. Ahora dice «~11 % del volumen, pero moviliza ~1 de cada 4 interacciones (~24 %)», y se alinea el nombre con «Mundial · estadio sede» (4.2). Cierra el pendiente A.
+
 **Iteración 9 (pendientes resueltos y ajustes de rótulos):**
 - **Capítulo 06 renombrado** de «Estrategia» a **«Estrategia de monitoreo»** (índice, divider, encabezados y pies).
 - **Slide 4.1:** se retiran las menciones a la metodología en pantalla (el eyebrow queda «Sentimiento · conversación de terceros», el pill «Base: menciones de terceros») y se elimina la nota al pie sobre la clasificación por léxico. La metodología se conserva documentada en este README.

@@ -2,22 +2,20 @@
 
 ## Abierto — a confirmar por el cliente
 
-### A. Slide 1.1 (Resumen ejecutivo): «Casa Mundialista concentra el 26 % del corpus»
-**Estado:** detectado en iteración 9, **en espera de confirmación** para corregir.
+_Ninguno pendiente por ahora._
 
-**Diagnóstico (corregido):** el 26 % **no es un número inventado, es un número mal rotulado**. Corresponde al **share de interacciones (engagement)** de la narrativa Mundial/estadio, no al de volumen. El texto de 1.1 confunde ambos: dice «concentra el 26 % **del corpus** y **movilizó la mayor proporción de interacciones**» — tomó la cifra de interacciones (~24 %) y la etiquetó como «del corpus» (que se lee como volumen).
+---
 
-Cifras reales sobre la base completa (corpus = 166 467 menciones · 20,6 M interacciones):
+## Resuelto en iteración 10
 
-| Alcance de la narrativa Mundial/estadio | Volumen (menciones) | Interacciones (engagement) |
-|---|---|---|
-| Solo «mundial» | 7,2 % | 15,1 % |
-| «mundial \| estadio» | 10,9 % | 21,1 % |
-| Amplio (mundial + estadio + sede + FIFA…) | 13,8 % | **24,2 %** (≈ el 26 % citado) |
+### A. Slide 1.1: «Casa Mundialista concentra el 26 % del corpus» ✅
+Era un número **correcto pero mal rotulado**: el 26 % correspondía al **share de interacciones (engagement)** de la narrativa Mundial/estadio, no al de volumen; el texto lo etiquetaba como «del corpus» (que se lee como volumen).
 
-La narrativa **pega por encima de su peso**: pocas menciones relativas (~11 % del volumen) pero mucho engagement por pieza (~175, de los más altos), por eso moviliza ~1 de cada 4 interacciones.
+Cifras reales (base completa): la narrativa Mundial/estadio es **~11 % del volumen** de menciones pero **~24 % de las interacciones** (moviliza ~1 de cada 4). Pega por encima de su peso por su alto engagement por pieza (~175).
 
-**Propuesta (a validar):** el fix es de **rótulo**, no de dato. Reemplazar «concentra el 26 % del corpus» por algo como **«moviliza ~1 de cada 4 interacciones (~24 %)»** o **«~11 % del volumen y ~24 % de las interacciones»**, y usar el nombre «Mundial · estadio sede» para no chocar con el sub-tema «Estadio como marca» (4.3).
+**Aplicado:** la tarjeta A de 1.1 ahora dice «La narrativa «Mundial · estadio sede» es ~11 % del volumen, pero moviliza ~1 de cada 4 interacciones (~24 %), en su mayoría positivas…», corrigiendo el rótulo y alineando el nombre con la slide 4.2.
+
+_Nota: quedan en 1.1 otras cifras legacy del reporte original (p. ej. «Era Almeyda 20 % del volumen», «anecdotario Tigres 14 %», «Mercenarios/directiva 15 %») que no se han auditado contra la base. Si se desea, se pueden revisar en una próxima iteración._
 
 ---
 
