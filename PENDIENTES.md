@@ -5,12 +5,19 @@
 ### A. Slide 1.1 (Resumen ejecutivo): «Casa Mundialista concentra el 26 % del corpus»
 **Estado:** detectado en iteración 9, **en espera de confirmación** para corregir.
 
-La slide 1.1 afirma que la narrativa «Casa Mundialista» concentra el **26 % del corpus**. Es una cifra *legacy* del reporte original que **no cuadra** con la base:
-- «mundial» (amplio) = 11 916 (7,2 % de terceros); «mundial|estadio» = 17 930 (10,9 %).
-- La narrativa «Mundial · estadio sede» de la slide 4.2 son 14 158 menciones (~8,6 % de terceros).
-- El 26 % no corresponde a ningún conteo verificable.
+**Diagnóstico (corregido):** el 26 % **no es un número inventado, es un número mal rotulado**. Corresponde al **share de interacciones (engagement)** de la narrativa Mundial/estadio, no al de volumen. El texto de 1.1 confunde ambos: dice «concentra el 26 % **del corpus** y **movilizó la mayor proporción de interacciones**» — tomó la cifra de interacciones (~24 %) y la etiquetó como «del corpus» (que se lee como volumen).
 
-**Propuesta (a validar):** reemplazar «26 % del corpus» por la cifra real de la narrativa Mundial/estadio (~8–11 % según el alcance que se elija), y usar el mismo nombre «Mundial · estadio sede» para no chocar con el sub-tema «Estadio como marca» (4.3).
+Cifras reales sobre la base completa (corpus = 166 467 menciones · 20,6 M interacciones):
+
+| Alcance de la narrativa Mundial/estadio | Volumen (menciones) | Interacciones (engagement) |
+|---|---|---|
+| Solo «mundial» | 7,2 % | 15,1 % |
+| «mundial \| estadio» | 10,9 % | 21,1 % |
+| Amplio (mundial + estadio + sede + FIFA…) | 13,8 % | **24,2 %** (≈ el 26 % citado) |
+
+La narrativa **pega por encima de su peso**: pocas menciones relativas (~11 % del volumen) pero mucho engagement por pieza (~175, de los más altos), por eso moviliza ~1 de cada 4 interacciones.
+
+**Propuesta (a validar):** el fix es de **rótulo**, no de dato. Reemplazar «concentra el 26 % del corpus» por algo como **«moviliza ~1 de cada 4 interacciones (~24 %)»** o **«~11 % del volumen y ~24 % de las interacciones»**, y usar el nombre «Mundial · estadio sede» para no chocar con el sub-tema «Estadio como marca» (4.3).
 
 ---
 
