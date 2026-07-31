@@ -16,7 +16,7 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Recomendaciones.
 
 Archivos:
-- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 26 slides).
+- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 27 slides).
 - `Rayados_Social_Listening_Q2-Q3_2026_extendido.html` — versión extendida (9 capítulos, 40 slides) como respaldo; misma información, más granular.
 
 ## Own media · listado oficial (8 cuentas)
@@ -60,6 +60,10 @@ Todo lo demás es **earned media** (terceros).
 | Almeyda (DT) | 13 765 menciones (8,3% del corpus) |
 
 ## Changelog
+
+**Iteración 6 (percepción de FEMSA en la audiencia):**
+- Nueva slide **5.2 «FEMSA · percepción de la audiencia»**, insertada tras 5.1. Analiza los comentarios de las publicaciones de @rayados sobre la Megalimpieza del Río La Silla (iniciativa FEMSA): 14 comentarios de audiencia clasificados en **Promotor (64%) · Promotor condicional (21%) · Detractor (14%)**. Hallazgo: la audiencia percibe a FEMSA como promotor y **ninguna crítica ataca a FEMSA como propietario** — el malestar se redirige al plantel (deportivo) o al Estado (impuestos); el único frente a gestionar es la continuidad de la labor social. Fuentes: `Comentarios_1.xlsx` y `Comentarios_2.xlsx` (exports de comentarios; muestra cualitativa/direccional, no estadística).
+- Renumeración de capítulo 05: te Kloese pasa a **5.3** y Responsabilidad social a **5.4**. El deck queda en **27 slides**.
 
 **Iteración 5 (marca, jugadores y consistencia institucional):**
 - **Cap. 04 reordenado a 3 slides.** Nueva **4.1 «Estructura: futbolística vs no-futbolística»**: la conversación es ~85% futbolística y ~15% de marca/institución; se abre la dimensión de marca en sub-temas (Dirigencia 8 142 · Patrocinio 5 718 · Mística 4 995 · Historia 4 684 · Estadio 1 249 · RSE ~170) con su tono, y se marca que el frente negativo vive en lo institucional («directiva / plantel caro que no gana»). Reemplaza la antigua «qué funciona: own vs terceros».
