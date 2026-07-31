@@ -63,6 +63,11 @@ Todo lo demás es **earned media** (terceros).
 
 ## Changelog
 
+**Iteración 11 (slide 4.3 recalculada con criterio corregido):**
+- Se corrigió la clasificación **futbolística vs no-futbolística**: el contenido de equipo, porras, goles y **mística/identidad** ahora cuenta como **futbolística** (antes inflaba la dimensión de marca). Nueva estructura: **~93 % futbolística / ~7 % no-futbolística** (antes ~85 / 15).
+- La tabla de sub-temas institucionales queda solo con lo **corporativo/off-pitch**: Patrocinio 3,4 % · Dirigencia 2,2 % · Estadio-sede 1,2 % · Aniversario 0,2 % · RSE 0,2 % (se retiran «Mística» e «Historia», que pasan a futbolística).
+- **Nota del own corregida:** own institucional **~18 % vs terceros ~6,5 %** (own ≈ 3× más institucional; es la principal fuente de la marca positiva), en lugar del erróneo «~31 %, casi a la par de lo futbolístico» de la iteración 9.
+
 **Iteración 10 (corrección del «26 %» en el resumen ejecutivo):**
 - **Slide 1.1 (tarjeta A):** se corrigió el rótulo de la narrativa Mundial/estadio. El «26 % del corpus» era el **share de interacciones** mal etiquetado como volumen. Ahora dice «~11 % del volumen, pero moviliza ~1 de cada 4 interacciones (~24 %)», y se alinea el nombre con «Mundial · estadio sede» (4.2). Cierra el pendiente A.
 
