@@ -63,6 +63,14 @@ Todo lo demás es **earned media** (terceros).
 
 ## Changelog
 
+**Iteración 13 (resumen ejecutivo 1.1 reconciliado con los capítulos de detalle):**
+- Se corrigieron las cifras legacy restantes de la slide 1.1 para que **cuadren con los capítulos 4.x**, sin cambiar titulares, narrativas ni sentiment:
+  - **A:** se quitan los `~` (11 % del volumen / 24 % de interacciones, ya consistentes con 4.2–4.3).
+  - **C:** refuerzos + Almeyda **18 % → 13 %** (unión real de los cuatro jugadores de la slide 4.4).
+  - **D:** se **mantiene el 14 %** (ya presentado) pero reencuadrado a la **rivalidad Tigres completa**, para que la anécdota no supere a la narrativa «Rivalidad Tigres/Japón» de la 4.2 (11 %).
+  - **E:** «Mercenarios/directiva» 15 % + «Sequía» 7 % = 22 % → **«el grueso del 7 % de tono negativo»** (tope de la slide 4.1); se conservan las dos narrativas y el sentimiento de desconfianza recurrente.
+- Resultado: el resumen ejecutivo deja de contradecir al resto del deck (se acabaron los «8 % de un lado, 20 % del otro»).
+
 **Iteración 12 (corrige el «20 %» de «Era Almeyda» en el resumen ejecutivo):**
 - **Slide 1.1 (tarjeta B):** el «20 % del volumen» de la narrativa «Era Almeyda» era una cifra legacy inflada (el conteo real es ~8–10 % del volumen / ~13 % de interacciones; ni el alcance más amplio llega a 20 %). Se corrigió a **8,3 %**, dejándola consistente con las slides 4.2 (earned 13 738) y 4.4 (Almeyda 13 765 = 8,3 %).
 
