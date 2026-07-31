@@ -16,7 +16,7 @@ Archivo principal: **`Rayados_Social_Listening_Q2-Q3_2026.html`** (autocontenido
 01 Resumen ejecutivo · 02 Volumen, dinámica e hitos · 03 Plataformas y autores (incl. own vs earned) · 04 Narrativas y sentimiento · 05 Rayados como institución · 06 Estrategia.
 
 Archivos:
-- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 27 slides).
+- `Rayados_Social_Listening_Q2-Q3_2026.html` — **versión concisa** (6 capítulos, 28 slides).
 - `Rayados_Social_Listening_Q2-Q3_2026_extendido.html` — versión extendida (9 capítulos, 40 slides) como respaldo; misma información, más granular.
 
 ## Own media · listado oficial (8 cuentas)
@@ -37,9 +37,10 @@ Todo lo demás es **earned media** (terceros).
 ## Metodología de las métricas
 
 - **Plataformas:** derivadas de `source_type`; engagement = suma real de la columna `engagement`.
-- **Tipologías (4.3):** own = listado de 8 cuentas; el resto se clasifica por patrones de nombre de autor + tipo de fuente. Suma de engagement por categoría sobre la base completa.
-- **Sentimiento (5.1):** clasificación editorial de terceros heredada del pipeline original (excluye cuentas propias). No hay campo de sentimiento en el export, por lo que se conserva sin recomputar.
-- **Narrativas (7.3) y temas corporativos (cap. 08):** etiquetado por palabras clave sobre el texto de la base completa; los temas no son mutuamente excluyentes.
+- **Tipologías:** own = listado de 8 cuentas; el resto se clasifica por patrones de nombre de autor + tipo de fuente. Suma de engagement por categoría sobre la base completa.
+- **Sentimiento (4.1):** el export **no trae campo de sentimiento**, por lo que se clasifica por **léxico explícito** sobre los terceros. Tres categorías: negativo (crítica explícita al club — dirigencia/gestión, sequía, reacción a derrotas — más rivalidad hostil que ataca a Rayados), positivo (orgullo, porras, celebración) y neutro (todo lo que no expresa sentimiento claro, incluida la rivalidad sin carga). Resultado: **Negativo 7 % · Neutro 75 % · Positivo 18 %**.
+- **Percepción de FEMSA / te Kloese (5.2, 5.3):** split promotor/neutro/detractor de la conversación earned por léxico; para FEMSA se suma, en lente aparte, el análisis de comentarios en las publicaciones propias.
+- **Narrativas y temas corporativos:** etiquetado por palabras clave sobre el texto de la base completa; los temas no son mutuamente excluyentes.
 
 ## Cifras clave (base completa · listado de 8 cuentas)
 
@@ -56,10 +57,18 @@ Todo lo demás es **earned media** (terceros).
 | Own media por plataforma | Instagram 707 posts / 6,38 M · Facebook 513 / 1,95 M · X 440 / 413 K · TikTok 43 / 741 K · LinkedIn 17 / 3 K |
 | FEMSA | 842 menciones (0,51% del corpus) · 99,5% earned / 0,5% own |
 | Dennis te Kloese | 1 360 menciones (0,82%) · 100% earned · peak en mayo |
-| Responsabilidad social | 168 menciones de programas concretos: Medio ambiente 35 (Megalimpieza) · Deporte y niñez 61 (Escuelas Rayados) · Comunidad/legado 39 (The World's Pitch) · Infancia 28 (UNICEF) |
+| Sentimiento (terceros, léxico explícito) | Negativo 7 % (crítica al club 5,5 % + rivalidad hostil 1,4 %) · Neutro 75 % · Positivo 18 % |
+| Responsabilidad social | 163 menciones de programas concretos: Medio ambiente 35 (Megalimpieza) · Deporte y niñez 61 (Escuelas Rayados) · Comunidad/legado 39 (The World's Pitch) · Infancia 28 (UNICEF) |
 | Almeyda (DT) | 13 765 menciones (8,3% del corpus) |
 
 ## Changelog
+
+**Iteración 8 (sentimiento recomputado, cap. 04 reordenado y percepción earned):**
+- **Sentimiento recomputado por léxico explícito** (antes 28/47/25 editorial, inconsistente): el 28 % negativo estaba sobreestimado. La crítica dura dirigida al club es **5,5 %** (dirigencia/gestión, sequía, reacción a derrotas) y, sumando la rivalidad hostil que sí ataca a Rayados (1,4 %), el negativo real es **7 %**. La rivalidad sin carga clara pasa a neutro. Nueva distribución: **Negativo 7 · Neutro 75 · Positivo 18**. Se corrigió el callout de la slide de estructura para que sea coherente.
+- **Capítulo 04 reordenado** a: 4.1 Distribución de sentimiento · 4.2 Narrativas: qué funciona (**re-agregada**) · 4.3 Estructura de la conversación · 4.4 Almeyda y jugadores.
+- **FEMSA (5.2):** se añade la lente de **conversación abierta / earned** (Promotor 23 · Neutro 70 · Detractor 7; 99 % de las menciones de FEMSA son en relación a Rayados) separada de la lente de **comentarios** (Promotor 64 · Condicional 21 · Detractor 14).
+- **te Kloese (5.3):** se añade la lente de percepción earned (Promotor 47 · Neutro 50 · Detractor 3).
+- **RSE (5.4):** el total pasa de 168 a **163** para cuadrar con la suma de los cuatro criterios (35 + 61 + 39 + 28). Deck en **28 slides**.
 
 **Iteración 7 (ajustes finales de formato y capítulo 06):**
 - Slide 3.3: los dos valores de engagement ≥ 1 M pasan de K a M (`5 406 K → 5,4 M`, `1 953 K → 1,9 M`); el resto de la columna se mantiene en K.
